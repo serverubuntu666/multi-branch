@@ -14,6 +14,7 @@ pipeline {
         stage ('test') {
             steps {
                 sh 'echo "This test is on ${branch_name}."'
+                sh 'ansible-playbook /mnt/d/drivef/devops/practice-ansible/playbooks/06-stdout.yml'
             }
         }
 
