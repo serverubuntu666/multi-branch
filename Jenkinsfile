@@ -20,7 +20,8 @@ pipeline {
 
         stage ('deploy') {
             steps {
-                sh 'echo "This deployments is on ${branch_name}."'
+                sh 'echo "testing webhook"'
+                sh 'echo "This deploy is on ${branch_name}."'
             }
         }
     }
