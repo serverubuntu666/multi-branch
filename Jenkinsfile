@@ -20,7 +20,7 @@ pipeline {
 
         stage ('deploy') {
             steps {
-                sh 'echo "This deployment is on ${branch_name}."'
+                sh 'echo "This deployments is on ${branch_name}."'
             }
         }
     }
