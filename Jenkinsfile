@@ -13,13 +13,13 @@ pipeline {
 
         stage ('test') {
             steps {
-                sh 'echo "This test is on ${branch_name}.'
+                sh 'echo "This test is on ${branch_name}."'
             }
         }
 
         stage ('deploy') {
             steps {
-                sh 'echo "This deploy is on ${branch_name}.'
+                sh 'echo "This deploy is on ${branch_name}."'
             }
         }
     }
