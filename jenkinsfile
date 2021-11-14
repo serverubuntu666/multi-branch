@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'DEV'}
     environment {
-        branch_name = feature
+        branch_name = 'feature'
     }
 
     stages {
